@@ -33,15 +33,25 @@ const Header = () => {
             <Nav.Link as={HashLink} to="/home#services" className="items">
               Services
             </Nav.Link>
-            <Link to="/supliments" className="items">
-              Supliments
+            <Link to="/blog" className="items">
+              Blog
             </Link>
-            <Link to="/equipments" className="items">
-              Equipments
-            </Link>
+            <Link to="/" className="items"></Link>
             <Link to="/register" className="items">
               register
             </Link>
+            {user?.displayName ? (
+              <>
+                <Link to="/tourservices" className="items">
+                  All Order
+                </Link>
+                <Link to="/tourservices" className="items">
+                  My Order
+                </Link>
+              </>
+            ) : (
+              <Nav.Link as={Link} to="/login"></Nav.Link>
+            )}
 
             {user?.email ? (
               <Button onClick={logOut} variant="light">
@@ -63,9 +73,6 @@ const Header = () => {
                 {user?.displayName}
               </a>
             </Navbar.Text>
-            <Link to="/register" className="items">
-              register
-            </Link>
           </Navbar.Collapse>
         </Container>
       </Navbar>

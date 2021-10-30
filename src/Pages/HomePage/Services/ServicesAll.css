@@ -1,10 +1,3 @@
-body {
-  font-family: "Baloo 2", cursive;
-  font-size: 16px;
-  color: #fff;
-  text-rendering: optimizeLegibility;
-  font-weight: initial;
-}
 .dark {
   background: #110f16;
 }

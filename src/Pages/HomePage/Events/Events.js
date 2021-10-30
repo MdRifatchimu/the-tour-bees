@@ -8,7 +8,7 @@ const Events = () => {
         <h1 className="text-center my-5">Our Events schedule Examples</h1>
         <section>
           <h2>Tour Date</h2>
-          <div class="grid-wrapper">
+          <div className="grid-wrapper">
             <article>
               <h3>9:00 AM</h3>
               <p>Life finds a way. You know what? It is beets. </p>
@@ -64,7 +64,7 @@ const Events = () => {
         </section>
         <section>
           <h2>Tour Date</h2>
-          <div class="grid-wrapper">
+          <div className="grid-wrapper">
             <article>
               <h3>9:00 AM</h3>
               <p>Life finds a way. You know what? It is beets. </p>

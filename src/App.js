@@ -7,6 +7,10 @@ import Footer from "./Pages/Shared/Footer/Footer";
 import AuthProvider from "./Context/AuthProvider";
 import Login from "./Pages/Login/Login";
 import Register from "./Pages/Register/Register";
+import ServiceDetails from "./Pages/ServiceDetails/ServiceDetails";
+import PrivateRoute from "./Pages/PrivateRoute/PrivateRoute";
+import Blog from "./Pages/Blog/Blog";
+import PlaceOrder from "./Pages/PlaceOrder/PlaceOrder";
 
 function App() {
   return (
@@ -26,14 +30,19 @@ function App() {
           <Route path="/register">
             <Register></Register>
           </Route>
+          <PrivateRoute path="/placeorder/:serviceId">
+            <PlaceOrder></PlaceOrder>
+          </PrivateRoute>
+          <PrivateRoute path="/servicedetails/:serviceId">
+            <ServiceDetails></ServiceDetails>
+          </PrivateRoute>
+          <PrivateRoute path="/blog">
+            <Blog></Blog>
+          </PrivateRoute>
           {/* 
          
-          <PrivateRoute path="/details/:serviceId">
-            <Details></Details>
-          </PrivateRoute>
-          <PrivateRoute path="/supliments">
-            <Supliments></Supliments>
-          </PrivateRoute>
+        
+          
           <PrivateRoute path="/equipments">
             <Equipments></Equipments>
           </PrivateRoute>

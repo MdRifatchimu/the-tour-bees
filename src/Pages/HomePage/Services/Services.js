@@ -11,11 +11,10 @@ const Services = () => {
   }, []);
   return (
     <div id="services">
-      <h2 className="text-primary mt-5">Our services</h2>
-      <div class="dark">
-        <div class="container py-4">
-          <h1 class="h1 text-center" id="pageHeaderTitle">
-            My Cards Dark
+      <div className="dark">
+        <div className="container py-4">
+          <h1 className="h1 text-center text-white" id="pageHeaderTitle">
+            Our Event Services
           </h1>
           <div>
             {services.map(service => (
