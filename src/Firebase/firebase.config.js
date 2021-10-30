@@ -14,7 +14,6 @@ const firebaseConfig = {
 
 export default firebaseConfig;
 
-// console.log(process.env);
 // const firebaseConfig = {
 //   apiKey: process.env.REACT_APP_API_KEY,
 //   authDomain: process.env.REACT_APP_AUTH_DOMAIN,
@@ -23,5 +22,6 @@ export default firebaseConfig;
 //   messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
 //   appId: process.env.REACT_APP_APP_ID
 // };
+// console.log(process.env.REACT_APP_API_KEY);
 
 // export default firebaseConfig;

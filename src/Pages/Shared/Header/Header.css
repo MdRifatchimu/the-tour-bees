@@ -1,0 +1,24 @@
+/* css styles for menu and navigation items  */
+.items {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #29282d;
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none;
+}
+.items:hover {
+  color: #e24836;
+}
+
+.menu-center {
+  margin-top: 20px !important;
+}
+/* style for logo title  */
+.logo-title {
+  color: rgb(214, 42, 12) !important;
+
+  font-weight: bold !important;
+}
