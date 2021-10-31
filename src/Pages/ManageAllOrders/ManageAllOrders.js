@@ -1,7 +1,9 @@
 import React, {useState} from "react";
 import {useEffect} from "react";
+import {useHistory} from "react-router-dom";
 
 const ManageAllOrders = () => {
+  const history = useHistory();
   const [services, setServices] = useState([]);
 
   useEffect(() => {
@@ -29,9 +31,11 @@ const ManageAllOrders = () => {
 
   const handleOrderStatus = id => {
     const orderSts = document.querySelector("#orderStatus");
-    const statusChanged = services.filter(service => service._id === id);
-    if (statusChanged) {
+    const statusChanged = services.filter(service => service._id === id || {});
+    if (statusChanged || statusChanged > services) {
       orderSts.innerHTML = "Approve";
+    } else {
+      history.push("/");
     }
   };
 

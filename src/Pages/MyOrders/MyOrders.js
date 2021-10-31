@@ -3,7 +3,6 @@ import useAuth from "./../../Hooks/useAuth";
 
 const MyOrders = () => {
   const [orders, setOrders] = useState([]);
-  const [services, setServices] = useState([]);
 
   const {user} = useAuth();
   const email = user.email;
@@ -24,9 +23,8 @@ const MyOrders = () => {
       .then(data => {
         if (data.deletedCount) {
           window.confirm("are you sure you wanna delete this order");
-          const remaining = services.filter(service => service._id !== id);
-          setServices(remaining);
-        } else {
+          const remaining = orders.filter(service => service._id !== id);
+          setOrders(remaining);
         }
       });
   };

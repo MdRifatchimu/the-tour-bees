@@ -53,7 +53,7 @@ const PlaceOrder = () => {
       </p>
       <h2>Tour Service Price: ${service.price}</h2>
       <div className="row">
-        <div className="col-6">
+        <div className="col-6 col-sm-12">
           <form className="shipping-form" onSubmit={handleSubmit(onSubmit)}>
             <input
               defaultValue={user.displayName}
@@ -86,7 +86,7 @@ const PlaceOrder = () => {
             <input type="submit" />
           </form>
         </div>
-        <div className="col-3">
+        <div className="col-3 col-sm-12">
           <h1 className="text-center">Order Status</h1>
           <h3 className="text-center">Pending</h3>
           <p className="text-center">
