@@ -18,7 +18,7 @@ const Service = ({service}) => {
         <ul className="postcard__tagbox">
           <li className="tag__item play yellow">
             <i className="fas fa-tag mx-2"> </i>
-            Price:$ {price}
+            Price: $ {price}
           </li>
 
           <li className="tag__item play blue">
