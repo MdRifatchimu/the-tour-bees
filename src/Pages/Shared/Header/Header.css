@@ -22,3 +22,15 @@
 
   font-weight: bold !important;
 }
+
+/* style for the hidden nav link tags */
+.hidden-link {
+  color: black;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+.hidden-link:hover {
+  color: #e24836;
+}

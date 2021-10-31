@@ -2,11 +2,14 @@ import React, {useEffect, useState} from "react";
 import {useForm} from "react-hook-form";
 import useAuth from "./../../Hooks/useAuth";
 import {Link, useParams} from "react-router-dom";
+import {useHistory} from "react-router-dom";
 
 import "./PlaceOrder.css";
 const PlaceOrder = () => {
+  let history = useHistory();
   const {serviceId} = useParams();
   const [service, setService] = useState({});
+  const {user} = useAuth();
   const {
     register,
     handleSubmit,
@@ -20,7 +23,6 @@ const PlaceOrder = () => {
       .then(res => res.json())
       .then(data => setService(data));
   }, []);
-  const {user} = useAuth();
 
   const onSubmit = data => {
     fetch("https://nameless-wildwood-25461.herokuapp.com/tourorders", {
@@ -36,6 +38,7 @@ const PlaceOrder = () => {
           alert("order processed successfully");
 
           reset();
+          history.push("/");
         }
       });
   };

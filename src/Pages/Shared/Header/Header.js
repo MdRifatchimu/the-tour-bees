@@ -37,16 +37,17 @@ const Header = () => {
               Blog
             </Link>
             <Link to="/" className="items"></Link>
-            <Link to="/register" className="items">
-              register
-            </Link>
+
             {user?.displayName ? (
               <>
-                <Link to="/tourservices" className="items">
-                  All Order
+                <Link to="/myorders" className="hidden-link">
+                  My Orders
                 </Link>
-                <Link to="/tourservices" className="items">
-                  My Order
+                <Link to="/manageallorders" className="hidden-link">
+                  Manage All Order
+                </Link>
+                <Link to="/addnewservice" className="hidden-link">
+                  Add a new service
                 </Link>
               </>
             ) : (
