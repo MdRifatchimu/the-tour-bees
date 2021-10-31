@@ -8,6 +8,7 @@
 <h2> Name for the Website of This Repository Profile is The Tour Bees </h2>
  
 <h3> <a href = 'https://the-tour-bees.web.app/'> Live link of the website</a> </h3>
+<h3> <a href = 'https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-MdRifatchimu'> Live link of the website server repository</a> </h3>
 <h2>Basically it's a website of Tourism Guide Service Website which Shows Their Portfolio and Services.</h2>
 <h2>Some Steps Of Creating This Website.</h2>
 <ul>
@@ -27,11 +28,11 @@
 <li>I used google sign in and email password registration method </li>
 <li>I used Link from react-router-dom to declare paths</li>
 <li>I also used PrivateRoute so hide some parts of the  website from the guest users.</li>
-<li>I also edited this readme file for bonus marks</li>
-<li>I created the 404 page if there is a route which the user wants to go and is not available</li>
-<li>I showed the logged in user's name in the header after successful login or registration</li>
-<li>I made details part for the services so that when a user clicks  book now button the can see the service in details</li>
-<li>For the extra two section required i created  a unique equipments section and a testimonial section</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
 
 </ul>
 <h2> Desktop View Of The Website HomePage</h2>
@@ -46,7 +47,7 @@
 
 <img width="55%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
 
-- 🌱 I’m currently learning Firebase authentication, Context Api and PrivateRoute
+- 🌱 I’m currently learning mongodb, heroku, Firebase authentication, Context Api and PrivateRoute
 <h2> Connect  me <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="100px"> </h2>
 <a href = 'https://www.github.com/MdRifatchimu'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/>
 </a>

@@ -14,7 +14,7 @@ const MyOrders = () => {
   }, [email]);
 
   const handleTourServiceDelete = id => {
-    const url = `https://nameless-wildwood-25461.herokuapp.com/${id}`;
+    const url = `https://nameless-wildwood-25461.herokuapp.com/deletetourorders/${id}`;
 
     fetch(url, {
       method: "DELETE"

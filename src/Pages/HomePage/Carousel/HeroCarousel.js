@@ -1,46 +1,10 @@
 import React from "react";
 import "./HeroCarousel.css";
-import {Carousel} from "react-responsive-carousel";
+
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const HeroCarousel = () => {
-  const caro = document.querySelector("#myCarousel");
-
   return (
-    // <div className="container w-75 my-3">
-    //   <Carousel
-    //     autoPlay
-    //     centerMode={true}
-    //     useKeyboardArrows={true}
-    //     swipeAble={true}
-    //     centerSlidePercentage={75}
-    //   >
-    //     <div>
-    //       <img alt="" src="https://i.ibb.co/V2PjSMP/3.jpg" />
-    //       <p className="legend ">
-    //         Travel With Tour Bees and Enjoy Every Moments
-    //       </p>
-    //     </div>
-
-    //     <div>
-    //       <img
-    //         alt=""
-    //         src="https://i.ibb.co/cC4ZmqF/2.jpg
-    //         "
-    //       />
-    //       <p className="legend">last camp</p>
-    //     </div>
-    //     <div>
-    //       <img alt="" src="https://i.ibb.co/DWn1Cxx/1.jpg" />
-    //       <p className="legend">last camp</p>
-    //     </div>
-    //     <div>
-    //       <img alt="" src="https://i.ibb.co/znbB2M2/4.jpg" />
-    //       <p className="legend">last camp</p>
-    //     </div>
-    //   </Carousel>
-
-    // </div>
     <div
       id="myCarousel"
       className="carousel slide carousel-fade "
