@@ -38,7 +38,7 @@ const PlaceOrder = () => {
           alert("order processed successfully");
 
           reset();
-          history.push("/");
+          history.push("/home");
         }
       });
   };

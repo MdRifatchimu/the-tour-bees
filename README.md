@@ -12,9 +12,9 @@
 <h2>Basically it's a website of Tourism Guide Service Website which Shows Their Portfolio and Services.</h2>
 <h2>Some Steps Of Creating This Website.</h2>
 <ul>
-<li>I made This Website Because of exploring and testing my knowledge of react router, Private Route, React Bootstrap, Hash Link, Dynamic Route, Firebase Authentication and Context Api, Auth Provider which i learn from programming hero web development course. </li>
+<li>I made This Website Because of exploring and testing my knowledge of MongoDb, Heroku, react router, Private Route, React Bootstrap, Hash Link, Dynamic Route, Firebase Authentication and Context Api, Auth Provider which i learn from programming hero web development course. </li>
 <li>I used Bootstrap , React Bootstrap alongside with Font Awesome to make this Website beautiful.</li>
-<li>Firstly I created a database so that i can show data's from that database in my website </li>
+<li>Firstly I created a database in mongodb and hosted the database in heroku so that i can show data's from that database in my website </li>
 <li>Then I Made The Header and footer Section Of The Website in the shared folder</li>
 <li>then i create routes to see other components in app.js</li>
 <li>I used Browser Router as Router</li>
@@ -25,14 +25,13 @@
 <li>I used some images to show services </li>
 
 <li>i used firebase authentication</li>
-<li>I used google sign in and email password registration method </li>
+<li>I used google sign in  method </li>
 <li>I used Link from react-router-dom to declare paths</li>
 <li>I also used PrivateRoute so hide some parts of the  website from the guest users.</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>I Used Axios</li>
+<li>I used React Hook form</li>
+<li>I also used React Hashlink</li>
+
 
 </ul>
 <h2> Desktop View Of The Website HomePage</h2>
