@@ -51,16 +51,6 @@ function App() {
           <PrivateRoute path="/addnewservice">
             <AddNewService></AddNewService>
           </PrivateRoute>
-          {/* 
-         
-        
-          
-          <PrivateRoute path="/equipments">
-            <Equipments></Equipments>
-          </PrivateRoute>
-          <Route path="*">
-            <NotFound></NotFound>
-          </Route> */}
         </Switch>
         <Footer></Footer>
       </Router>

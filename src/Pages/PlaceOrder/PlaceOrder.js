@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {useForm} from "react-hook-form";
 import useAuth from "./../../Hooks/useAuth";
-import {Link, useParams} from "react-router-dom";
+import {useParams} from "react-router-dom";
 import {useHistory} from "react-router-dom";
 
 import "./PlaceOrder.css";
@@ -97,5 +97,4 @@ const PlaceOrder = () => {
     </div>
   );
 };
-
 export default PlaceOrder;
