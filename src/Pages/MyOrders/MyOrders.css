@@ -1,0 +1,5 @@
+.single-products:hover {
+  background-color: rgb(162, 221, 162);
+  border: none !important;
+  color: rgb(93, 14, 129) !important;
+}

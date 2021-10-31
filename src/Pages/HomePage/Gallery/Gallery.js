@@ -5,9 +5,9 @@ const Gallery = () => {
   return (
     <>
       <h2 className="text-center text-success my-5"> See Our Photo Gallery</h2>
-      <p className="text-center ">
+      <h3 className="text-center ">
         See and get mesmerized by the photos from our travelled locations.
-      </p>
+      </h3>
       <div className="gallery">
         <div className="galleryColumn">
           <a href="https://unsplash.com/@jeka_fe" className="galleryLink">
@@ -17,9 +17,6 @@ const Gallery = () => {
                 alt="Portrait by Jessica Felicio"
                 className="galleryImage"
               />
-              <figcaption className="galleryCaption">
-                Portrait by Jessica Felicio
-              </figcaption>
             </figure>
           </a>
 
@@ -30,9 +27,6 @@ const Gallery = () => {
                 alt="Portrait by Oladimeji Odunsi"
                 className="galleryImage"
               />
-              <figcaption className="galleryCaption">
-                Portrait by Oladimeji Odunsi
-              </figcaption>
             </figure>
           </a>
 
@@ -43,9 +37,6 @@ const Gallery = () => {
                 alt="Portrait by Alex Perez"
                 className="galleryImage"
               />
-              <figcaption className="galleryCaption">
-                Portrait by Alex Perez
-              </figcaption>
             </figure>
           </a>
         </div>
@@ -58,9 +49,6 @@ const Gallery = () => {
                 alt="Portrait by Noah Buscher"
                 className="galleryImage"
               />
-              <figcaption className="galleryCaption">
-                Portrait by Noah Buscher
-              </figcaption>
             </figure>
           </a>
 
@@ -71,9 +59,6 @@ const Gallery = () => {
                 alt="Portrait by Ivana Cajina"
                 className="galleryImage"
               />
-              <figcaption className="galleryCaption">
-                Portrait by Ivana Cajina
-              </figcaption>
             </figure>
           </a>
 
@@ -84,9 +69,6 @@ const Gallery = () => {
                 alt="Portrait by Sam Burriss"
                 className="galleryImage"
               />
-              <figcaption className="galleryCaption">
-                Portrait by Sam Burriss
-              </figcaption>
             </figure>
           </a>
         </div>
@@ -99,9 +81,6 @@ const Gallery = () => {
                 alt="Portrait by Mari Lezhava"
                 className="galleryImage"
               />
-              <figcaption className="galleryCaption">
-                Portrait by Mari Lezhava
-              </figcaption>
             </figure>
           </a>
 
@@ -112,9 +91,6 @@ const Gallery = () => {
                 alt="Portrait by Ethan Haddox"
                 className="galleryImage"
               />
-              <figcaption className="galleryCaption">
-                Portrait by Ethan Haddox
-              </figcaption>
             </figure>
           </a>
 
@@ -125,9 +101,6 @@ const Gallery = () => {
                 alt="Portrait by Amir Geshani"
                 className="galleryImage"
               />
-              <figcaption className="galleryCaption">
-                Portrait by Amir Geshani
-              </figcaption>
             </figure>
           </a>
         </div>
@@ -140,9 +113,6 @@ const Gallery = () => {
                 alt="Portrait by Guilian Fremaux"
                 className="galleryImage"
               />
-              <figcaption className="galleryCaption">
-                Portrait by Guilian Fremaux
-              </figcaption>
             </figure>
           </a>
 
@@ -156,9 +126,6 @@ const Gallery = () => {
                 alt="Portrait by Jasmin Chew"
                 className="galleryImage"
               />
-              <figcaption className="galleryCaption">
-                Portrait by Jasmin Chew
-              </figcaption>
             </figure>
           </a>
 
@@ -169,9 +136,6 @@ const Gallery = () => {
                 alt="Portrait by Dima DallAcqua"
                 className="galleryImage"
               />
-              <figcaption className="galleryCaption">
-                Portrait by Dima DallAcqua
-              </figcaption>
             </figure>
           </a>
         </div>

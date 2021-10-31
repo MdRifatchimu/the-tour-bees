@@ -9,8 +9,8 @@
   }
 }
 .body {
-  background: linear-gradient(to top, #000428, #004683);
-
+  /* background: linear-gradient(to top, #000428, #004683); */
+  background-color: #0f1019;
   color: white;
   margin: 0;
   padding: 0;

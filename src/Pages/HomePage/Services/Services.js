@@ -1,7 +1,11 @@
 import React, {useEffect, useState} from "react";
+import {Button, Spinner} from "react-bootstrap";
+import useAuth from "../../../Hooks/useAuth";
+
 import Service from "./Service";
 import "./ServicesAll.css";
 const Services = () => {
+  const {isLoading} = useAuth();
   const [services, setService] = useState([]);
   useEffect(() => {
     const url = "https://nameless-wildwood-25461.herokuapp.com/tourservices";
@@ -9,6 +13,20 @@ const Services = () => {
       .then(res => res.json())
       .then(data => setService(data));
   }, []);
+  if (isLoading) {
+    return (
+      <Button variant="warning" disabled>
+        <Spinner
+          as="span"
+          animation="grow"
+          size="sm"
+          role="status"
+          aria-hidden="true"
+        />
+        Loading...
+      </Button>
+    );
+  }
   return (
     <div id="services">
       <div className="dark">

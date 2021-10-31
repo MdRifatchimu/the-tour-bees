@@ -7,14 +7,14 @@ const ManageAllOrders = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    const url = "http://localhost:4040/tourorders";
+    const url = "https://nameless-wildwood-25461.herokuapp.com/tourorders";
     fetch(url)
       .then(res => res.json())
       .then(data => setServices(data));
   }, []);
 
   const handleTourServiceDelete = id => {
-    const url = `http://localhost:4040/deletetourorders/${id}`;
+    const url = `https://nameless-wildwood-25461.herokuapp.com/deletetourorders/${id}`;
 
     fetch(url, {
       method: "DELETE"
@@ -41,9 +41,9 @@ const ManageAllOrders = () => {
 
   return (
     <div className="container my-5">
-      <h2>This is manage all orders</h2>
+      <h2>Manage orders Where You can Manage All Orders</h2>
       {services.map(service => (
-        <div key={service._id}>
+        <div key={service._id} className="border border-success p-2 m-2">
           <h3>Ordered By User:{service.name}</h3>
           <h3>Tour Service Name:{service.service_name}</h3>
           <p>Email: {service.email}</p>

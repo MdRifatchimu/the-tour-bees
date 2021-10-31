@@ -4,7 +4,7 @@
   margin-right: 30px;
   font-size: 22px;
   font-weight: 500;
-  color: #29282d;
+  color: #fff;
   cursor: pointer;
   padding: 5px;
   text-decoration: none;
@@ -14,7 +14,7 @@
 }
 
 .menu-center {
-  margin-top: 20px !important;
+  margin-top: -20px !important;
 }
 /* style for logo title  */
 .logo-title {
@@ -25,7 +25,7 @@
 
 /* style for the hidden nav link tags */
 .hidden-link {
-  color: black;
+  color: #fff;
   margin-right: 10px;
   cursor: pointer;
   font-size: 16px;
@@ -33,4 +33,8 @@
 }
 .hidden-link:hover {
   color: #e24836;
+}
+
+.logo-title {
+  color: #e84f84 !important;
 }

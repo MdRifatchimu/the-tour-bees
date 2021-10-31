@@ -4,6 +4,7 @@ import {useHistory} from "react-router-dom";
 import {useLocation} from "react-router-dom";
 import {Link} from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
+import "./Register.css";
 
 const Register = () => {
   const {signInWithGoogle, setUser, setIsLoading} = useAuth();
@@ -26,17 +27,20 @@ const Register = () => {
   };
 
   return (
-    <div>
-      <div className="my-5 py-5 text-center container">
+    <div class="register-container">
+      <div class="register-content">
+        <h1>Hover Here To Register With Google</h1>
+        <br />
+        <br />
         <GoogleButton
-          label="Register With Google"
+          label="Login With Google"
           onClick={handleGoogleRegister}
         />
-
         <p>
-          New User ?<Link to="/login">Please register</Link>
+          Already Registered ?<Link to="/login">Please Login</Link>
         </p>
       </div>
+      <div class="flap"></div>
     </div>
   );
 };

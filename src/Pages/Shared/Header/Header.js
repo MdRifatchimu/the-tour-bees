@@ -12,15 +12,15 @@ const Header = () => {
   return (
     <div>
       <Navbar
-        bg="light"
-        variant="light"
+        bg="dark"
+        variant="dark"
         sticky="top"
         collapseOnSelect
         expand="lg"
       >
-        <Container>
+        <Container style={{marginTop: 0}}>
           <Navbar.Brand className="logo-title fs-4">
-            <Link className="navbar-brand text-danger" to="/home">
+            <Link className="navbar-brand logo-title" to="/home">
               {/* <img alt="" src={logo} width="75" height="75" /> */}
               The Tour Bees
             </Link>
@@ -36,7 +36,6 @@ const Header = () => {
             <Link to="/blog" className="items">
               Blog
             </Link>
-            <Link to="/" className="items"></Link>
 
             {user?.displayName ? (
               <>
@@ -55,7 +54,7 @@ const Header = () => {
             )}
 
             {user?.email ? (
-              <Button onClick={logOut} variant="light">
+              <Button onClick={logOut} variant="warning">
                 Logout
               </Button>
             ) : (
@@ -64,15 +63,14 @@ const Header = () => {
               </Nav.Link>
             )}
             <Navbar.Text>
-              Signed in as:
-              <a
+              <Nav.Link
                 as={HashLink}
                 to="/home#services"
                 className="items"
                 href="#login"
               >
                 {user?.displayName}
-              </a>
+              </Nav.Link>
             </Navbar.Text>
           </Navbar.Collapse>
         </Container>

@@ -19,7 +19,7 @@ const Testimonials = () => {
                   class="profile"
                 />
                 <div class="pt-3 text-uppercase name"> Robert Garrison </div>
-                <div class="designation">Android Developer</div>
+                <div class="designation">Ceo</div>
               </div>
               <div class="face back-face">
                 <span class="fas fa-quote-left"></span>
@@ -45,7 +45,7 @@ const Testimonials = () => {
                   class="profile"
                 />
                 <div class="pt-3 text-uppercase name"> Jeffery Kennan </div>
-                <div class="designation">Full Stack Developer</div>
+                <div class="designation">Manager</div>
               </div>
               <div class="face back-face">
                 <span class="fas fa-quote-left"></span>
@@ -71,7 +71,7 @@ const Testimonials = () => {
                   class="profile"
                 />
                 <div class="pt-3 text-uppercase name"> Issac Maxwell </div>
-                <div class="designation">Finance Director</div>
+                <div class="designation">Top Tour Guide</div>
               </div>
               <div class="face back-face">
                 <span class="fas fa-quote-left"></span>

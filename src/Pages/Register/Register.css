@@ -1,0 +1,71 @@
+.register-container {
+  position: relative;
+  left: 50%;
+  top: 0%;
+  margin-top: 200px !important;
+  padding-top: 200px;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 600px;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.register-content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  padding: 40px;
+  font-family: "Merriweather", serif;
+  -webkit-transform: translatey(-50%);
+  -moz-transform: translatey(-50%);
+  -ms-transform: translatey(-50%);
+  -o-transform: translatey(-50%);
+}
+
+.flap {
+  width: 100%;
+  height: 100%;
+}
+
+.flap::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg")
+    white;
+  background-position: 100px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg")
+    white;
+  background-position: -200px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.register-container:hover .flap::after {
+  transform: translatex(300px);
+}
+
+.register-container:hover .flap::before {
+  transform: translatex(-300px);
+}
