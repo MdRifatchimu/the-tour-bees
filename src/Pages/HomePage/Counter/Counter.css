@@ -4,7 +4,8 @@
 
 .counter-box {
   display: block;
-  background: #d3e7fa;
+  /* background: #d3e7fa; */
+  background-color: #191d3a;
   padding: 40px 20px 37px;
   text-align: center;
 }
@@ -12,7 +13,7 @@
 .counter-box p {
   margin: 5px 0 0;
   padding: 0;
-  color: #731797;
+  color: #e84f84;
   font-size: 18px;
   font-weight: 500;
 }
@@ -20,19 +21,19 @@
 .counter-box i {
   font-size: 60px;
   margin: 0 0 15px;
-  color: #731797;
+  color: #e84f84;
 }
 
 .counter {
   display: block;
   font-size: 32px;
   font-weight: 700;
-  color: #731797;
+  color: #e84f84;
   line-height: 28px;
 }
 
 .counter-box:hover {
-  background-color: #8ceb8c;
+  background-color: #0f1019;
   color: #fff;
 }
 

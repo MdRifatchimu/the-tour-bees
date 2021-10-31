@@ -23,7 +23,7 @@
 }
 
 #myCarousel .carousel-item a {
-  background: #ff0000;
+  background: #0f111b;
   font-size: 14px;
   color: #fff;
   padding: 13px 32px;
@@ -31,7 +31,7 @@
 }
 
 #myCarousel .carousel-item a:hover {
-  background: #ff0000;
+  background: #bf1650;
   text-decoration: none;
 }
 
@@ -80,7 +80,7 @@
 #myCarousel {
   position: relative;
   z-index: 1;
-  background: #000;
+  background: #191d3a;
   background-size: cover;
 }
 
