@@ -44,14 +44,14 @@ const Footer = () => {
     //     </footer>
     //   </div>
     // </div>
-    <div class="footer-16371">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-9 text-center">
-            <div class="footer-site-logo mb-4">
+    <div className="footer-16371">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-md-9 text-center">
+            <div className="footer-site-logo mb-4">
               <a href="#">The Tour Bees</a>
             </div>
-            <ul class="list-unstyled nav-links mb-5 ">
+            <ul className="list-unstyled nav-links mb-5 ">
               <li>
                 <Link to="/">Home</Link>
               </li>
@@ -68,39 +68,39 @@ const Footer = () => {
               </li>
             </ul>
 
-            <div class="social mb-4">
+            <div className="social mb-4">
               <h3>Stay in touch</h3>
-              <ul class="list-unstyled">
-                <li class="in">
+              <ul className="list-unstyled">
+                <li className="in">
                   <a href="#">
-                    <span class="icon-instagram"></span>
+                    <span className="icon-instagram"></span>
                   </a>
                 </li>
-                <li class="fb">
+                <li className="fb">
                   <a href="#">
-                    <span class="icon-facebook"></span>
+                    <span className="icon-facebook"></span>
                   </a>
                 </li>
-                <li class="tw">
+                <li className="tw">
                   <a href="#">
-                    <span class="icon-twitter"></span>
+                    <span className="icon-twitter"></span>
                   </a>
                 </li>
-                <li class="pin">
+                <li className="pin">
                   <a href="#">
-                    <span class="icon-pinterest"></span>
+                    <span className="icon-pinterest"></span>
                   </a>
                 </li>
-                <li class="dr">
+                <li className="dr">
                   <a href="#">
-                    <span class="icon-dribbble"></span>
+                    <span className="icon-dribbble"></span>
                   </a>
                 </li>
               </ul>
             </div>
 
-            <div class="copyright">
-              <p class="mb-0">
+            <div className="copyright">
+              <p className="mb-0">
                 <small>&copy; Colorlib. All Rights Reserved.</small>
               </p>
             </div>

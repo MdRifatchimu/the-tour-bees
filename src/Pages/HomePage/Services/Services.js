@@ -15,16 +15,18 @@ const Services = () => {
   }, []);
   if (isLoading) {
     return (
-      <Button variant="warning" disabled>
-        <Spinner
-          as="span"
-          animation="grow"
-          size="sm"
-          role="status"
-          aria-hidden="true"
-        />
-        Loading...
-      </Button>
+      <div className="d-grid gap-2">
+        <Button variant="warning" size="lg" disabled>
+          <Spinner
+            as="span"
+            animation="grow"
+            size="sm"
+            role="status"
+            aria-hidden="true"
+          />
+          Loading...
+        </Button>
+      </div>
     );
   }
   return (

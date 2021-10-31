@@ -10,7 +10,7 @@ const Gallery = () => {
       </h3>
       <div className="gallery">
         <div className="galleryColumn">
-          <a href="https://unsplash.com/@jeka_fe" className="galleryLink">
+          <a href="#" className="galleryLink">
             <figure className="galleryThumb">
               <img
                 src="https://source.unsplash.com/_cvwXhGqG-o/300x300"
@@ -20,7 +20,7 @@ const Gallery = () => {
             </figure>
           </a>
 
-          <a href="https://unsplash.com/@oladimeg" className="galleryLink">
+          <a href="#" className="galleryLink">
             <figure className="galleryThumb">
               <img
                 src="https://source.unsplash.com/AHBvAIVqk64/300x500"
@@ -30,7 +30,7 @@ const Gallery = () => {
             </figure>
           </a>
 
-          <a href="https://unsplash.com/@a2eorigins" className="galleryLink">
+          <a href="#" className="galleryLink">
             <figure className="galleryThumb">
               <img
                 src="https://source.unsplash.com/VLPLo-GtrIE/300x300"
@@ -42,7 +42,7 @@ const Gallery = () => {
         </div>
 
         <div className="galleryColumn">
-          <a href="https://unsplash.com/@noahbuscher" className="galleryLink">
+          <a href="#" className="galleryLink">
             <figure className="galleryThumb">
               <img
                 src="https://source.unsplash.com/AR7aumwKr2s/300x300"
@@ -52,7 +52,7 @@ const Gallery = () => {
             </figure>
           </a>
 
-          <a href="https://unsplash.com/@von_co" className="galleryLink">
+          <a href="#" className="galleryLink">
             <figure className="galleryThumb">
               <img
                 src="https://source.unsplash.com/dnL6ZIpht2s/300x300"
@@ -62,7 +62,7 @@ const Gallery = () => {
             </figure>
           </a>
 
-          <a href="https://unsplash.com/@samburriss" className="galleryLink">
+          <a href="#" className="galleryLink">
             <figure className="galleryThumb">
               <img
                 src="https://source.unsplash.com/tV_1sC603zA/300x500"
@@ -74,7 +74,7 @@ const Gallery = () => {
         </div>
 
         <div className="galleryColumn">
-          <a href="https://unsplash.com/@marilezhava" className="galleryLink">
+          <a href="#" className="galleryLink">
             <figure className="galleryThumb">
               <img
                 src="https://source.unsplash.com/Xm9-vA_bhm0/300x500"
@@ -84,7 +84,7 @@ const Gallery = () => {
             </figure>
           </a>
 
-          <a href="https://unsplash.com/@ethanhaddox" className="galleryLink">
+          <a href="#" className="galleryLink">
             <figure className="galleryThumb">
               <img
                 src="https://source.unsplash.com/NTjSR3zYpsY/300x300"
@@ -94,7 +94,7 @@ const Gallery = () => {
             </figure>
           </a>
 
-          <a href="https://unsplash.com/@mr_geshani" className="galleryLink">
+          <a href="#" className="galleryLink">
             <figure className="galleryThumb">
               <img
                 src="https://source.unsplash.com/2JH8d3ChNec/300x300"
@@ -106,7 +106,7 @@ const Gallery = () => {
         </div>
 
         <div className="galleryColumn">
-          <a href="https://unsplash.com/@frxgui" className="galleryLink">
+          <a href="#" className="galleryLink">
             <figure className="galleryThumb">
               <img
                 src="https://source.unsplash.com/FQhLLehm4dk/300x300"
@@ -116,10 +116,7 @@ const Gallery = () => {
             </figure>
           </a>
 
-          <a
-            href="https://unsplash.com/@majestical_jasmin"
-            className="galleryLink"
-          >
+          <a href="#" className="galleryLink">
             <figure className="galleryThumb">
               <img
                 src="https://source.unsplash.com/OQd9zONSx7s/300x300"
@@ -129,7 +126,7 @@ const Gallery = () => {
             </figure>
           </a>
 
-          <a href="https://unsplash.com/@dimadallacqua" className="galleryLink">
+          <a href="#" className="galleryLink">
             <figure className="galleryThumb">
               <img
                 src="https://source.unsplash.com/XZkEhowjx8k/300x500"

@@ -27,8 +27,8 @@ const Register = () => {
   };
 
   return (
-    <div class="register-container">
-      <div class="register-content">
+    <div className="register-container">
+      <div className="register-content">
         <h1>Hover Here To Register With Google</h1>
         <br />
         <br />
@@ -40,7 +40,7 @@ const Register = () => {
           Already Registered ?<Link to="/login">Please Login</Link>
         </p>
       </div>
-      <div class="flap"></div>
+      <div className="flap"></div>
     </div>
   );
 };

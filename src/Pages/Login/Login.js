@@ -27,8 +27,8 @@ const Login = () => {
   };
 
   return (
-    <div class="login-container">
-      <div class="login-content">
+    <div className="login-container">
+      <div className="login-content">
         <h1>Hover Here To Login With Google</h1>
         <br />
         <br />
@@ -37,7 +37,7 @@ const Login = () => {
           New User ?<Link to="/register">Please register</Link>
         </p>
       </div>
-      <div class="flap"></div>
+      <div className="flap"></div>
     </div>
   );
 };

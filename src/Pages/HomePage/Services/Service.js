@@ -5,7 +5,7 @@ import "./ServicesAll.css";
 const Service = ({service}) => {
   const {_id, name, price, description, img} = service;
   return (
-    <div className="postcard dark blue">
+    <div className="postcard dark green">
       <a className="postcard__img_link" href="#">
         <img className="postcard__img" src={img} />
       </a>
