@@ -8,7 +8,7 @@
 <h2> Name for the Website of This Repository Profile is The Tour Bees </h2>
  
 <h3> <a href = 'https://the-tour-bees.web.app/'> Live link of the website</a> </h3>
-<h3> <a href = 'https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-MdRifatchimu'> website client repository link </a> </h3>
+<h3> <a href = 'https://github.com/MdRifatchimu/the-tour-bees-server'> website server repository link </a> </h3>
  <h3> <a href = 'https://github.com/MdRifatchimu/the-tour-bees-client'>   website client repository link</a> </h3>
 
  
